@@ -1,5 +1,6 @@
 ![image](https://github.com/Mozgiii9/Zora/assets/74683169/10457959-a93a-48e2-b36b-b106040ca546)
 
+## Дата создания гайда: 09.05.2024
 
 # Zora
 
