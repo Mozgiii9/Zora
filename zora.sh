@@ -16,8 +16,7 @@ display_logo() {
 # Функция для установки ноды Zora
 install_zora_node() {
   read -p "Введите RPC ссылку из Alchemy(Ethereum Mainnet): " rpc_link
-  sudo su
-  curl -fsSL https://get.docker.com -o install-docker.sh
+  sudo curl -fsSL https://get.docker.com -o install-docker.sh
   sudo sh install-docker.sh
   sudo apt-get update && sudo apt-get upgrade -y
   sudo apt install docker-compose screen -y
@@ -74,4 +73,3 @@ menu() {
 }
 
 menu
-
