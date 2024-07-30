@@ -28,7 +28,7 @@ install_zora_node() {
   echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
   sudo apt-get update
   sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose -y
-  git clone https://github.com/conduitxyz/node.git
+  git clone https://github.com/lorenzofox3/zora-node.git
   cd node
   ./download-config.py zora-mainnet-0
   export CONDUIT_NETWORK=zora-mainnet-0
